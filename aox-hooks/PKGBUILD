@@ -2,8 +2,8 @@
 
 pkgname=aox-hooks
 pkgdesc="Additions and enhancements for Aox Linux"
-pkgver=2.5.4
-pkgrel=1
+pkgver=0.1
+pkgrel=0
 arch=('any')
 license=('GPL')
 depends=('pacman' 'pacman-contrib')
