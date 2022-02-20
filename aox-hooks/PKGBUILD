@@ -3,7 +3,7 @@
 pkgname=aox-hooks
 pkgdesc="Additions and enhancements for Aox Linux"
 pkgver=0.1
-pkgrel=0
+pkgrel=1
 arch=('any')
 license=('GPL')
 depends=('pacman' 'pacman-contrib')
@@ -11,7 +11,7 @@ source=(filesystem.hook
         aox-hooks-runner
         lsb-release.hook)
 md5sums=('b51a07460306261716da587b8ccae400'
-         '6e8a2cee4f2e188c6c424a6a1167c5d0'
+         '0cdef6e3e53d46644c474a93adc98aca'
          'f3f161da6eadbc1a1c2a0f3fd9827fa5')
 
 package() {

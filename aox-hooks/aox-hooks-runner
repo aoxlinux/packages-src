@@ -9,10 +9,10 @@ Filesystem() {
         -e 's,ID=.*,ID=aox,' \
         -e 's,ID_LIKE=.*,ID_LIKE=arch,' \
         -e 's,BUILD_ID=.*,BUILD_ID=rolling,' \
-        -e 's,HOME_URL=.*,HOME_URL=\"https://olivaresa.github.io/aoxlinux/\",' \
-        -e 's,DOCUMENTATION_URL=.*,DOCUMENTATION_URL=\"https://olivaresa.github.io/aoxlinux/\",' \
-        -e 's,SUPPORT_URL=.*,SUPPORT_URL=\"https://olivaresa.github.io/aoxlinux/\",' \
-        -e 's,BUG_REPORT_URL=.*,BUG_REPORT_URL=\"https://github.com/olivaresa/aoxlinux/issues\",' \
+        -e 's,HOME_URL=.*,HOME_URL=\"https://aoxlinux.xyz\",' \
+        -e 's,DOCUMENTATION_URL=.*,DOCUMENTATION_URL=\"https://docs.aoxlinux.xyz\",' \
+        -e 's,SUPPORT_URL=.*,SUPPORT_URL=\"https://docs.aoxlinux.xyz\",' \
+        -e 's,BUG_REPORT_URL=.*,BUG_REPORT_URL=\"https://issues.aoxlinux.xyz\",' \
         # # -e 's,LOGO=.*,LOGO=aox,'
 
     if [ -z "$(grep "^ID_LIKE=" $file)" ] && [ -n "$(grep "^ID=" $file)" ] ; then
